@@ -121,6 +121,8 @@ gify = @animate for i=1:1:length(num)
             linewidth = 1,
             linecolor = colors[constrain],
             seriesalpha = 1,
+            # fill = true,
+            # fillalpha = 0.1,
             label = false
         )
     end
